@@ -45,7 +45,7 @@ footer {
 
 /* flex*/
 body{
-    background: linear-gradient(0deg, rgba(250,231,231,1) 0%, rgba(251,225,88,1) 100%);
+    background: linear-gradient(0deg,rgba(167,74,221,1) 0%, rgba(251,251,251,1) 100% );
     
 }
 
@@ -60,7 +60,7 @@ body{
 
 
 .Nav{
-    background:linear-gradient(90deg, rgba(233,233,249,1) 4%, rgba(4,1,73,1) 74%);
+    background:linear-gradient(90deg, rgba(2,218,23,1) 4%, rgba(1,0,9,1) 74%);
     display: flex;
     flex-direction: row;
     justify-content: center  ;
@@ -97,21 +97,22 @@ body{
     
    
 }
+/* transformaciones */
 
 .menu > li > a:hover{
-    color:white;
+    color:rgba(167,74,221,1);
+    transform: scale(1.1);
+    opacity: 0.6;
+    background-color: azure;
+    font-weight: bold;
     
     
 }
-/*boton hambuergueza*/
 
-.bar-btn{
-    font-size: 25px;
-    color: white;
-    margin-right: 20px;
-    cursor: pointer;
+
+.cards > .card > img:hover{
+    transform: scale(1.3);
 }
-
 
 .logo{
     display:flex;
@@ -127,14 +128,6 @@ h2 {
     font-family: 'Raleway', sans-serif;
     margin-top: 100px;
 
-}
-
-#check {
-    display: none;
-}
-
-#check:checked ~ .menu li {
-    display: block;
 }
 
 h1 {
